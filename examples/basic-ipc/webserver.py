@@ -1,5 +1,5 @@
 from quart import Quart
-from discord.ext import ipc
+from pycord.ext import ipc
 
 
 app = Quart(__name__)

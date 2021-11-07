@@ -1,12 +1,16 @@
 import re
+import os
+import sys
 
-project = "discord-ext-ipc"
+sys.path.insert(0, os.path.abspath('../'))
+
+project = "pycord-ext-ipc"
 copyright = "2020-present, Ext-Creators"
 author = "Ext-Creators"
 
 _version_regex = r"^version = ('|\")((?:[0-9]+\.)*[0-9]+(?:\.?([a-z]+)(?:\.?[0-9])?)?)\1$"
 
-with open("../discord/ext/ipc/__init__.py") as stream:
+with open("../pycord/ext/ipc/__init__.py") as stream:
     match = re.search(_version_regex, stream.read(), re.MULTILINE)
 
 version = match.group(2)
@@ -44,7 +48,7 @@ autodoc_typehints = "none"
 intersphinx_mapping = {
     "aiohttp": ("https://docs.aiohttp.org/en/stable/", None),
     "python": ("https://docs.python.org/3", None),
-    "discord": ("https://discordpy.readthedocs.io/en/latest", None),
+    "discord": ("https://docs.pycord.dev/en/latest/", None),
 }
 
 highlight_language = "python3"

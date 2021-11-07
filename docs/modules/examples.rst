@@ -13,7 +13,8 @@ The bot file:
     :linenos:
 
     import discord
-    from discord.ext import commands, ipc
+    from discord.ext import commands
+    from pycord.ext import ipc
 
 
     class MyBot(commands.Bot):
@@ -57,7 +58,7 @@ The webserver file:
     :linenos:
 
     from quart import Quart
-    from discord.ext import ipc
+    from pycord.ext import ipc
 
 
     app = Quart(__name__)
@@ -88,7 +89,8 @@ The bot file:
     :linenos:
 
     import discord
-    from discord.ext import commands, ipc
+    from discord.ext import commands
+    from pycord.ext import ipc
 
 
     class MyBot(commands.Bot):
@@ -124,7 +126,8 @@ The cog file:
 .. code-block:: python
     :linenos:
 
-    from discord.ext import commands, ipc
+    from discord.ext import commands
+    from pycord.ext import ipc
 
 
     class IpcRoutes(commands.Cog):
@@ -149,7 +152,7 @@ The webserver file:
     :linenos:
 
     from quart import Quart
-    from discord.ext import ipc
+    from pycord.ext import ipc
 
 
     app = Quart(__name__)

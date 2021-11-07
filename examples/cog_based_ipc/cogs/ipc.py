@@ -1,4 +1,5 @@
-from discord.ext import commands, ipc
+from discord.ext import commands
+from pycord.ext import ipc
 
 
 class IpcRoutes(commands.Cog):

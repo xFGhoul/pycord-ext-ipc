@@ -1,29 +1,24 @@
-.. raw :: html
-
-    <h1 align="center">As of the 28th August 2021 discord-ext-ipc is no-longer maintained.</h1>
-    <br>
-
 .. raw:: html
 
     <p align="center">
-        <a href="https://github.com/Ext-Creators/discord-ext-ipc/actions?query=workflow%3AAnalyze+event%3Apush">
+        <a href="https://github.com/xFGhoul/pycord-ext-ipc/actions?query=workflow%3AAnalyze+event%3Apush">
             <img alt="Analyze Status"
-                 src="https://github.com/Ext-Creators/discord-ext-ipc/workflows/Analyze/badge.svg?event=push" />
+                 src="https://github.com/xFGhoul/pycord-ext-ipc/workflows/Analyze/badge.svg?event=push" />
         </a>
 
-        <a href="https://github.com/Ext-Creators/discord-ext-ipc/actions?query=workflow%3ABuild+event%3Apush">
+        <a href="https://github.com/xFGhoul/pycord-ext-ipc/actions?query=workflow%3ABuild+event%3Apush">
             <img alt="Build Status"
-                 src="https://github.com/Ext-Creators/discord-ext-ipc/workflows/Build/badge.svg?event=push" />
+                 src="https://github.com/xFGhoul/pycord-ext-ipc/workflows/Build/badge.svg?event=push" />
         </a>
 
-        <a href="https://github.com/Ext-Creators/discord-ext-ipc/actions?query=workflow%3ADeploy+event%3Apush">
+        <a href="https://github.com/xFGhoul/pycord-ext-ipc/actions?query=workflow%3ADeploy+event%3Apush">
             <img alt="Deploy Status"
-                 src="https://github.com/Ext-Creators/discord-ext-ipc/workflows/Deploy/badge.svg?event=push" />
+                 src="https://github.com/xFGhoul/pycord-ext-ipc/workflows/Deploy/badge.svg?event=push" />
         </a>
 
-        <a href="https://github.com/Ext-Creators/discord-ext-ipc/actions?query=workflow%3ALint+event%3Apush">
+        <a href="https://github.com/xFGhoul/pycord-ext-ipc/actions?query=workflow%3ALint+event%3Apush">
             <img alt="Lint Status"
-                 src="https://github.com/Ext-Creators/discord-ext-ipc/workflows/Lint/badge.svg?event=push" />
+                 src="https://github.com/xFGhoul/pycord-ext-ipc/workflows/Lint/badge.svg?event=push" />
         </a>
     </p>
 
@@ -31,9 +26,14 @@
 
 .. raw:: html
 
-    <h1 align="center">discord-ext-ipc</h1>
-    <p align="center">A discord.py extension for inter-process communication.</p>
-    <h6 align="center">Copyright 2020-present Ext-Creators</h6>
+Please Note
+------------
+- This Is A Fork Of The Original [discord-ext-ipc](https://github.com/ext-creators/discord-ext-ipc)
+
+.. raw:: html
+
+    <h1 align="center">pycord-ext-ipc</h1>
+    <p align="center">A pycord extension for inter-process communication.</p>
 
 
 Installation
@@ -43,12 +43,11 @@ Installation
 
 .. code-block:: sh
 
-    pip install --upgrade discord-ext-ipc
+    pip install --upgrade pycord-ext-ipc
 
 
 See Also
 --------
 
 - The `documentation <https://ext-creators.github.io/docs/ipc/>`_.
-- The `usage examples <https://github.com/Ext-Creators/discord-ext-ipc/tree/master/examples>`_.
-- The `Ext-Creators Discord <https://discord.gg/fwYfYZJGck>`_.
+- The `usage examples <https://github.com/xFGhoul/pycord-ext-ipc/tree/master/examples>`_.
