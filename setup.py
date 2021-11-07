@@ -44,7 +44,7 @@ packages = [
 ]
 
 project_urls = {
-    "Documentation": "https://discord-ext-ipc.readthedocs.io",
+    "Documentation": "https://pycord-ext-ipc.readthedocs.io/en/latest/",
     "Issue Tracker": "https://github.com/xFGhoul/pycord-ext-ipc/issues",
     "Source": "https://github.com/Ext-Creators/discord-ext-ipc",
 }

@@ -49,5 +49,5 @@ Installation
 See Also
 --------
 
-- The `documentation <https://ext-creators.github.io/docs/ipc/>`_.
+- The `documentation <https://pycord-ext-ipc.readthedocs.io/en/latest/>`_.
 - The `usage examples <https://github.com/xFGhoul/pycord-ext-ipc/tree/master/examples>`_.
