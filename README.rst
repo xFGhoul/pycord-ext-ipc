@@ -28,7 +28,7 @@
 
 Please Note
 ------------
-- This Is A Fork Of The Original [discord-ext-ipc](https://github.com/ext-creators/discord-ext-ipc)
+- This Is A Fork Of The Original `discord-ext-ipc <https://github.com/ext-creators/discord-ext-ipc>`_.
 
 .. raw:: html
 
